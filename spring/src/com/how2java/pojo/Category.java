@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class Category {
 
         private int id;
-        private String name="category 1";
+        private String name;
 
         public int getId() {
             return id;
