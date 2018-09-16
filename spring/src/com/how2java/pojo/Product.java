@@ -2,6 +2,8 @@ package com.how2java.pojo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import javax.annotation.Resource;
+
 /**
  * @Auther: superhan
  * @Contact: chenchaohan@live.com
@@ -11,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class Product {
     private int id;
     private String name;
-
+    @Resource(name="c")
     private Category category;
 
     public int getId() {
@@ -33,7 +35,7 @@ public class Product {
     public Category getCategory() {
         return category;
     }
-    @Autowired
+
     public void setCategory(Category category) {
         this.category = category;
     }
