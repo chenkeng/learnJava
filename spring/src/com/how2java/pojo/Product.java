@@ -11,11 +11,11 @@ import javax.annotation.Resource;
  * @Date: 2018/9/16 15:48
  * @Description:
  */
-@Component("p")
+
 public class Product {
     private int id;
     private String name="product 1";
-    @Autowired
+
     private Category category;
 
     public int getId() {

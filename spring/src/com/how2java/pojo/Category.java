@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * @Date: 2018/9/16 15:16
  * @Description:
  */
-@Component("c")
+
 public class Category {
 
         private int id;
